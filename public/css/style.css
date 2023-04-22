@@ -76,10 +76,7 @@ ul {
   color: var(--white);
 }
 
-
-
 /* Menu Icon */
-
 .hamb {
   cursor: pointer;
   float: right;
@@ -165,9 +162,7 @@ main article p:nth-of-type(1) {
   border: 2px solid var(--white);
 }
 
-
 /* Responsiveness */
-
 @media (min-width: 768px) {
   .nav {
     max-height: none;
