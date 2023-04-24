@@ -279,7 +279,7 @@ main article p:nth-of-type(1) {
 
     main section:nth-of-type(2) .cards .card h2 {
         color: var(--textColor);
-        margin: 5px 0;
+        margin: 10px 0;
     }
 
     main section:nth-of-type(2) .cards .card img {
@@ -322,6 +322,10 @@ main article p:nth-of-type(1) {
         width:20%;
         margin-right:15px;
         float: left;
+    }
+
+    section:nth-of-type(3)  > .cards  > .card  > em{
+        color:var(--textColor)
     }
 
     main section:nth-of-type(3) .cards .card hr{
