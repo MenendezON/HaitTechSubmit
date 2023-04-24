@@ -339,9 +339,30 @@ main article p:nth-of-type(1) {
     float: left;
   }
 
-  section:nth-of-type(4) {
-    background-color: rgb(96, 151, 210);
-    height: 30vh;
+  section:nth-of-type(4) {   
+    background-color: var(--black);
+    height: 30vh; 
+    color:silver;
+    text-align: center;
+    padding-top:50px;
+  }
+
+  section:nth-of-type(4)>.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    justify-content: space-around; 
+    margin:0 auto;
+  }
+
+  section:nth-of-type(4) > hr {
+    width: 50px;
+    border: 2px solid var(--textColor);
+    margin: 10px auto;
+  }
+
+  section:nth-of-type(4)>.cards>img{
+    width: 20%;
   }
 
   section:nth-of-type(5) {
