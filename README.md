@@ -103,11 +103,15 @@ This project has been deployed at this address https://menendezon.github.io/Hait
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Software developer**
 
 - GitHub: [@menendezon](https://github.com/menendezon)
 - Twitter: [@menendezon](https://twitter.com/menendezon)
 - LinkedIn: [MenendezON](https://linkedin.com/in/menendezon)
+
+👤 **Designer**
+
+- Link: [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
