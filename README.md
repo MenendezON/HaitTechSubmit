@@ -21,7 +21,8 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
+- [👥 Authors](#authors)aknowledgements
+- [👥 Aknowledgements](#aknowledgements)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -109,9 +110,11 @@ This project has been deployed at this address https://menendezon.github.io/Hait
 - Twitter: [@menendezon](https://twitter.com/menendezon)
 - LinkedIn: [MenendezON](https://linkedin.com/in/menendezon)
 
-👤 **Designer**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Link: [Cindy Shin in Behance](https://www.behance.net/adagio07)
+## 👥 Aknowledgements <a name="aknowledgements"></a>
+
+- I would like to thank <a href="https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>, for the design used in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
