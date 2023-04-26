@@ -41,6 +41,9 @@ ul {
   top: 0;
   width: 100%;
   height: 80px;
+  background-image: url('../images/background-1.png');
+  background-size: cover;
+  background-position: left bottom;
 }
 
 /* Logo */
@@ -48,7 +51,8 @@ ul {
   display: inline-block;
   color: var(--white);
   font-size: 60px;
-  margin-left: 10px;
+  margin-right: 10px;
+  float: right;
 }
 
 .logo img {
@@ -64,6 +68,7 @@ ul {
   background-color: var(--white);
   overflow: hidden;
   max-height: 0;
+  top: 80px;
   transition: max-height 0.5s ease-out;
 }
 
@@ -81,14 +86,14 @@ ul {
 /* Menu Icon */
 .hamb {
   cursor: pointer;
-  float: right;
+  float: left;
   padding: 40px 20px;
 }
 
 .hamb-line {
   background: var(--gray);
   display: block;
-  height: 2px;
+  height: 3px;
   position: relative;
   width: 24px;
 }
@@ -146,6 +151,8 @@ ul {
 
 .home {
   height: 65vh;
+  background-image: url('../images/background-1.png');
+  background-size: cover;
 }
 
 .intro {
@@ -288,6 +295,7 @@ ul {
 .footer > .cards {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: start;
   padding: 20px;
   gap: 15px;
@@ -296,6 +304,14 @@ ul {
 .footer > .cards > img {
   height: 25px;
   margin-top: 5px;
+}
+
+.footer > .cards > img:nth-of-type(1) {
+  display: block;
+}
+
+.footer > .cards > img:nth-of-type(2) {
+  display: none;
 }
 
 .footer > .cards p:nth-of-type(1) {
@@ -329,6 +345,7 @@ ul {
 
   .logo {
     margin-left: 8%;
+    float: left;
   }
 
   .social-nav {
@@ -349,6 +366,10 @@ ul {
 
   .menu a {
     color: var(--black);
+  }
+
+  .hamb {
+    display: none;
   }
 
   .second-menu ul li {
@@ -380,11 +401,8 @@ ul {
     color: var(--textColor);
   }
 
-  .hamb {
-    display: none;
-  }
-
   .breadcrumb {
+    display: block;
     margin: 10px auto;
     padding: 0;
     width: 1280px;
@@ -541,14 +559,22 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 50px 100px;
-    gap: 15px;
+    padding: 50px 90px;
+    gap: 20px;
   }
 
   .footer > .cards > img {
     margin-top: 5px;
     height: 100px;
     flex: 1;
+  }
+
+  .footer > .cards > img:nth-of-type(1) {
+    display: none;
+  }
+
+  .footer > .cards > img:nth-of-type(2) {
+    display: block;
   }
 
   .footer > .cards p:nth-of-type(1) {
