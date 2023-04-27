@@ -357,9 +357,13 @@ ul {
   gap: 30px;
 }
 
-.footer > .cards > img,
-.footer > .cards > div {
+.footer > .cards > .cc-logo,
+.footer > .cards > .legacy {
   flex: 1 100%;
+}
+
+.cc-logo img {
+  width: 100%;
 }
 
 /* Responsiveness */
