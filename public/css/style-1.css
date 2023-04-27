@@ -3,7 +3,7 @@
 :root {
   --white: #fff;
   --silver: #d3d3d3;
-  --gray: #272a31;
+  --gray: #2c2e35;
   --black: #000;
   --textColor: #ec5242;
 }
@@ -36,7 +36,6 @@ ul {
 
 /* Header */
 .header {
-  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
   width: 100%;
@@ -161,6 +160,12 @@ ul {
   gap: 10px;
   margin: 15px 10px 0 10px;
   text-align: center;
+}
+
+.intro h3 {
+  font-size: 1.25em;
+  line-height: 0em;
+  color: var(--textColor);
 }
 
 .intro h1 {
@@ -365,7 +370,7 @@ ul {
   }
 
   .menu a {
-    color: var(--black);
+    color: var(--gray);
   }
 
   .hamb {
@@ -454,7 +459,7 @@ ul {
     font-style: normal;
     font-weight: bolder;
     line-height: 1em;
-    color: var(--black);
+    color: var(--gray);
   }
 
   .intro p:nth-of-type(2) {
@@ -553,38 +558,39 @@ ul {
   .footer {
     background-color: var(--gray);
     color: var(--white);
+    height: 25vh;
+    padding: 35px 10%;
   }
 
   .footer > .cards {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 50px 90px;
-    gap: 20px;
+    gap: 50px;
   }
 
-  .footer > .cards > img {
-    margin-top: 5px;
-    height: 100px;
+  .footer img { width: 300px; }
+
+  .footer > .cards > .cc-logo {
     flex: 1;
   }
 
-  .footer > .cards > img:nth-of-type(1) {
+  .footer > .cards > .legacy {
+    flex: 3;
+  }
+
+  .footer > .cards > .cc-logo > img:nth-of-type(1) {
     display: none;
   }
 
-  .footer > .cards > img:nth-of-type(2) {
+  .footer > .cards > .cc-logo > img:nth-of-type(2) {
     display: block;
   }
 
   .footer > .cards p:nth-of-type(1) {
     font-size: medium;
-    font-weight: bold;
-    flex: 1;
   }
 
-  .footer > .cards p:nth-of-type(2) {
+  .footer > .cards > div > p:nth-of-type(2) {
     display: block;
-    flex: 1;
   }
 }

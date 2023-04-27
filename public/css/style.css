@@ -35,7 +35,6 @@ ul {
 
 /* Header */
 .header {
-  background-color: var(--white);
   background-image: url('../images/background-1.png');
   background-size: cover;
   background-position: left bottom;
@@ -621,24 +620,23 @@ ul {
   }
 
   .footer {
-    height: 30vh;
-    padding: 50px 10%;
+    height: 25vh;
+    padding: 35px 10%;
   }
 
   .footer > .cards {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
-    gap: 30px;
+    gap: 50px;
   }
 
-  .footer > .cards > img {
-    width: 25%;
+  .footer img { width: 300px; }
+
+  .footer > .cards > .cc-logo {
     flex: 1;
   }
 
-  .footer > .cards > div {
-    width: 75%;
-    flex: 2;
+  .footer > .cards > .legacy {
+    flex: 3;
   }
 }
