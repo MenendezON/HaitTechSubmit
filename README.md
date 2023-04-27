@@ -22,7 +22,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [👥 Aknowledgements](#aknowledgements)
+- [👥 Acknowledgements](#acknowledgements)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -34,6 +34,8 @@
 
 **Haiti Tech Summit 2023** is a technology event that takes place every year in Haiti on a different theme, with speakers from around the world presenting their topics around the theme of the event.
 This year, the theme chosen for HTS 2023 is "Artificial Intelligence, are we talking?"
+
+You can watch my presentation at this link : https://www.loom.com/share/7368f20db79e4394aed42ca54738687e
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -112,7 +114,7 @@ This project has been deployed at this address https://menendezon.github.io/Hait
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Aknowledgements <a name="aknowledgements"></a>
+## 👥 Acknowledgements <a name="acknowledgements"></a>
 
 - I would like to thank <a href="https://www.behance.net/adagio07">Cindy Shin</a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">author of the original design</a>, for the design used in this project.
 
