@@ -21,7 +21,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)aknowledgements
+- [👥 Authors](#authors)
 - [👥 Aknowledgements](#aknowledgements)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -29,7 +29,7 @@
 - [📝 License](#license)
 
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Haiti Tech Summit <a name="about-project"></a>
 
 
 **Haiti Tech Summit 2023** is a technology event that takes place every year in Haiti on a different theme, with speakers from around the world presenting their topics around the theme of the event.
